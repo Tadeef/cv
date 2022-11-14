@@ -100,7 +100,7 @@ nav li {
 }
 
 .devPic img {
-  height: 65vh;
+  height: 4vh; /* 65vh real */
 }
 
 /* ----- ------- ------- contact me page ------ ------ ----- */
