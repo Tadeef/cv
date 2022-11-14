@@ -1,27 +1,39 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>My contact</title>
-  <link rel="stylesheet" href="css/styles.css">
-
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h3>How to get connected with me</h3>
-    <ol>
-     <li><b>Address:..........</b></li>
-     <li><b>email:.......</b></li>
-     <li><b>website:.......</b></li>
-    </ol>
-    <hr>
-    <form class="" action="index.html" method="post" enctype="text/plain">
-      <label>Your Name:</label>
-      <input type="text" name="Your Name" value=""><br>
-      <label>Your Email:</label>
-      <input type="email" name="Your Email" value=""><br>
-      <label>Your Message:</label><br>
-      <textarea name="Your Message" rows="12" cols="35"></textarea><br>
-      <input type="submit">
-    </form>
+    <div class="container">
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="intro.html">My Intro</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main-contact">
+        <div class="contact-form">
+          <div class="join">Contact me for <span>Work.</span></div>
+          <div class="form">
+            <label for="name">Name</label>
+            <input type="text" required />
+            <label for="email">Email</label>
+            <input type="email" required />
+            <label for="password">Password</label>
+            <input type="password" required />
+            <input type="submit" class="btn" />
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
